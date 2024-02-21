@@ -1,0 +1,25 @@
+@tailwind base;
+
+.animate-spin{
+  animation: spin 15s linear infinite !important;
+}
+
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    --tw-bg-opacity: 1;
+    background-color: rgb(240 242 245/var(--tw-bg-opacity));
+}
+
+.mobile .navs{
+  left: 0px !important;
+  transition: all .4s ease-in-out;
+}
+.navs{
+  transition: all .4s ease-in-out;
+}
