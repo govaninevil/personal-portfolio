@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import {Link} from 'react-router-dom'
 
 const Header = () => {
     const [mobile, setMobile] = useState(false)
@@ -52,8 +53,7 @@ const Header = () => {
                             </div>
                             <ul className="mt-10 xl:flex xl:mt-0 xl:gap-4">
                                 <li className="w-1/2">
-                                    <a
-                                        href="#"
+                                    <Link to="/"
                                         className="flex items-center p-4 mb-2 lg:mb-0 rounded-xl hover:bg-slate-100 transition duration-300 ease-in-out text-[20px] "
                                     >
                                         <svg
@@ -70,11 +70,10 @@ const Header = () => {
                                             <path d="M13.333 12.5c-1.841 1.11-4.826 1.11-6.667 0" />
                                         </svg>
                                         Home
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="w-1/2">
-                                    <a
-                                        href="#"
+                                    <Link to="/About"
                                         className="flex gap-3 items-center p-4 mb-2 lg:mb-0 rounded-xl hover:bg-slate-100 transition duration-300 ease-in-out text-[20px]"
                                     >
                                         <svg
@@ -92,11 +91,10 @@ const Header = () => {
                                             <path d="M5.5 16.708v-.041a3.333 3.333 0 0 1 3.333-3.334h3.334a3.333 3.333 0 0 1 3.333 3.334v.041" />
                                         </svg>
                                         About
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="w-1/2">
-                                    <a
-                                        href="#"
+                                    <Link to="/Service"
                                         className="flex gap-3 items-center p-4 mb-2 lg:mb-0 rounded-xl hover:bg-slate-100 transition duration-300 ease-in-out text-[20px]"
                                     >
                                         <svg
@@ -112,11 +110,10 @@ const Header = () => {
                                             <path d="M10.5 3.333 3.833 6.667 10.5 10l6.667-3.333L10.5 3.333ZM3.833 10l6.667 3.333L17.167 10M3.833 13.333l6.667 3.334 6.667-3.334" />
                                         </svg>
                                         Service
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="w-1/2">
-                                    <a
-                                        href="#"
+                                    <Link to="/Project"
                                         className="flex gap-3 items-center p-4 mb-2 lg:mb-0 rounded-xl hover:bg-slate-100 transition duration-300 ease-in-out text-[20px]"
                                     >
                                         <svg
@@ -132,11 +129,10 @@ const Header = () => {
                                             <path d="m3.503 5.998 5.949-2.591a.8.8 0 0 1 1.058.439l4.103 9.918a.834.834 0 0 1-.428 1.087l-5.948 2.59a.8.8 0 0 1-1.059-.438l-4.103-9.92a.833.833 0 0 1 .428-1.085ZM13 3.333h.833a.833.833 0 0 1 .834.834v2.916M17.167 5c.22.093.433.18.64.263a.833.833 0 0 1 .442 1.092l-1.915 4.478" />
                                         </svg>
                                         Work
-                                    </a>
+                                    </Link>
                                 </li>
-                                <li className="w-1/2">
-                                    <a
-                                        href="#"
+                                {/* <li className="w-1/2">
+                                    <Link to=""
                                         className="flex gap-3 items-center p-4 mb-2 lg:mb-0 rounded-xl hover:bg-slate-100 transition duration-300 ease-in-out text-[20px]"
                                     >
                                         <svg
@@ -153,10 +149,9 @@ const Header = () => {
                                         </svg>
                                         Blog
                                     </a>
-                                </li>
+                                </li> */}
                                 <li className="w-1/2">
-                                    <a
-                                        href="#"
+                                    <Link to="/Contact"
                                         className="flex gap-3 items-center p-4 mb-2 lg:mb-0 rounded-xl hover:bg-slate-100 transition duration-300 ease-in-out text-[20px]"
                                     >
                                         <svg
@@ -172,7 +167,7 @@ const Header = () => {
                                             <path d="M6.667 7.5h6.666m-6.666 3.333h5M15 3.333a2.5 2.5 0 0 1 2.5 2.5V12.5A2.5 2.5 0 0 1 15 15h-4.167l-4.166 2.5V15H5a2.5 2.5 0 0 1-2.5-2.5V5.833a2.5 2.5 0 0 1 2.5-2.5h10Z" />
                                         </svg>
                                         Contact
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                             <div className="contact-btn absolute xl:static bottom-24 left-8 text-[22px] rounded-xl xl:ml-5">

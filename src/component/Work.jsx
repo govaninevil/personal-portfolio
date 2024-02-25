@@ -3,7 +3,7 @@ import Exprince_card from './Exprince_card'
 
 const Work = () => {
     const data =[
-        {id: 1, date: "2019-2021", name: "Alain Software", post: "Web Designer"},
+        {id: 1, date: "2021-2021", name: "Alain Software", post: "Web Designer Intern"},
         {id: 2, date: "2021-2022", name: "Pixlet Studio", post: "Web Designer"},
         {id: 3, date: "2022-2024", name: "Glysis Software", post: "Sr. Web Designer"}
     ]

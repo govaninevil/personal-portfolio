@@ -1,44 +1,26 @@
 import {useState} from 'react'
+import { BrowserRouter as Router , Route, Routes} from 'react-router-dom';
+
+
 import './App.css'
-import Header from './component/Header.jsx'
-import About from './component/About.jsx'
-import Service from './component/Service.jsx'
-import Work from './component/Work.jsx'
-import Expert_area from './component/Expert_area.jsx'
-import Project from './component/Project.jsx'
-import MoveWithCursor from './component/MoveWithCursor.jsx'
-import Shape from './component/Shape.jsx'
-import Work_together from './component/Work_together.jsx'
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import ProjectPage from './pages/Project_page';
+import Service from './pages/Service';
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className='App'>
-      <MoveWithCursor/>
-      <Shape />
-      <div className="md:container mx-auto">
-        <Header />
-          <div className="lg:grid grid-cols-2 xl:grid-cols-3 grid-rows-3 gap-1">
-            <div className="row-span-2">
-              <About />
-            </div>
-            <div>
-              <Work />
-            </div>
-            <div className="row-span-2">
-              <Project />
-            </div>
-            <div>
-              <Expert_area />
-            </div>
-            <div className='lg:row-span-2 xl:col-span-2 xl:row-span-1'>
-              <Service />
-            </div>
-            <Work_together />
-          </div>
-      </div>
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path="/" Component={Home} />
+        <Route  path="/About" Component={About} />
+        <Route  path="/Contact" Component={Contact} />
+        <Route  path="/Project" Component={ProjectPage} />
+        <Route  path="/Service" Component={Service} />
+      </Routes>
+    </Router>
   )
 }
 

@@ -1,25 +1,65 @@
 @tailwind base;
 
-.animate-spin{
+.animate-spin {
   animation: spin 15s linear infinite !important;
+}
+
+.moreAbout::-webkit-scrollbar {
+  display: none;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  content: '' !important;
+}
+
+.slick-prev,
+.slick-next {
+  width: auto;
+  height: auto;
+  transform: translate(0, 0);
+  top: -32%;
+}
+
+.slick-next {
+  right: 15px;
+}
+
+.slick-prev {
+  right: 65px;
+  left: auto;
+}
+
+.animate-infinite-scroll {
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% - 1.5rem));
+  }
 }
 
 @tailwind components;
 @tailwind utilities;
 
 
-body{
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-    --tw-bg-opacity: 1;
-    background-color: rgb(240 242 245/var(--tw-bg-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 242 245/var(--tw-bg-opacity));
 }
 
-.mobile .navs{
+.mobile .navs {
   left: 0px !important;
   transition: all .4s ease-in-out;
 }
-.navs{
+
+.navs {
   transition: all .4s ease-in-out;
 }

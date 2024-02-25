@@ -17,7 +17,7 @@ const About = () => {
                     <div className="dis">
                         <p className='text-justify text-gray-500 mb-5'>
                             
-                            A dedicated <span className='text-black font-[500]'>Web Designer</span> and <span className='text-black font-[500]'>Graphic Designer</span> professional with <span className='text-black font-[500]'>4 years</span> of experience,Passion drives my commitment to creating exceptional digital experiences.
+                            A dedicated <span className='text-black font-[500]'>Web Designer</span> and <span className='text-black font-[500]'>Graphic Designer</span> professional with <span className='text-black font-[500]'>2 years</span> of experience,Passion drives my commitment to creating exceptional digital experiences.
                         </p>
                     </div>
                     <div className="contect sm:flex gap-3">
