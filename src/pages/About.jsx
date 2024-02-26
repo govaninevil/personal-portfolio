@@ -23,7 +23,7 @@ const About = () => {
 
                     <div className="moreAbout col-span-2 overflow-y-scroll">
                         <section className='m-5 px-10 pt-8 pb-4 bg-white rounded-xl'>
-                            <div className='flex justify-between'>
+                            <div className='lg:flex justify-between'>
                                 <div className="title">
                                     <h2 className='text-4xl font-bold'>Hi, This is <span className='text-blue-800 mr-2'>Nevil Govani</span>👋</h2>
                                 </div>
