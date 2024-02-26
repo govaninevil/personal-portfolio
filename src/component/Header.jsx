@@ -113,7 +113,7 @@ const Header = () => {
                                     </Link>
                                 </li>
                                 <li className="w-1/2">
-                                    <Link to="/Project"
+                                    <Link to="/Work"
                                         className="flex gap-3 items-center p-4 mb-2 lg:mb-0 rounded-xl hover:bg-slate-100 transition duration-300 ease-in-out text-[20px]"
                                     >
                                         <svg

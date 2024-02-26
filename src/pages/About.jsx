@@ -15,7 +15,7 @@ const About = () => {
             <Shape />
             <div className="md:container mx-auto">
                 <Header />
-                <div className="grid grid-cols-3">
+                <div className="lg:grid grid-cols-3">
                     <div>
                         <About2 />
                         {/* <Project /> */}
@@ -36,7 +36,7 @@ const About = () => {
                                 </div>
                             </div>
                             <div className='flex items-end justify-between'>
-                                <div className="num w-[75%]">
+                                <div className="num lg:w-[75%] w-full">
                                     <p className='text-2xl text-slate-400 mt-8'> A dedicated <span className='font-bold text-black'>Web Designer 🖥️</span> & <span className='font-bold text-black'>Graphic Designer</span> professional with <span className='font-bold text-black'>2 years</span> of experience,Passion drives my commitment to creating exceptional digital experiences. </p>
                                     <div className="row flex gap-20 mt-16">
                                         <div className="box">
