@@ -68,7 +68,7 @@ const About = () => {
                             <div class="mt-10 lg:mt-14">
                                 <div class="group flex gap-6 overflow-hidden rounded-lg bg-slate-200 p-6">
                                     <div class="relative flex min-w-full shrink-0 animate-infinite-scroll gap-6 group-hover:[animation-play-state:paused]">
-                                        <a href="phonepe://pay?pa=9773261259@paytm&pn=Flipkart&am=299.00&cu=INR&tn=Flipkart" class="relative inline-block whitespace-nowrap text-3xl font-medium text-slate-500 transition before:mr-3 before:content-['\2022'] hover:text-black  md:text-[40px]">
+                                        <a href="contact.html" class="relative inline-block whitespace-nowrap text-3xl font-medium text-slate-500 transition before:mr-3 before:content-['\2022'] hover:text-black  md:text-[40px]">
                                             Let's 👋 Work Together
                                         </a>
                                         <a href="contact.html" class="relative inline-block whitespace-nowrap text-3xl font-medium text-slate-500 transition before:mr-3 before:content-['\2022'] hover:text-black  md:text-[40px]">
