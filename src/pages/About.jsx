@@ -46,6 +46,7 @@ const About = () => {
                                         <div className="box">
                                             <h2 className='text-4xl text-black font-[600]'>20+</h2>
                                             <p className='text-slate-500'>Project Completed</p>
+                                            <a href
                                         </div>
                                         <div className="box">
                                             <h2 className='text-4xl text-black font-[600]'>15+</h2>
@@ -67,7 +68,7 @@ const About = () => {
                             <div class="mt-10 lg:mt-14">
                                 <div class="group flex gap-6 overflow-hidden rounded-lg bg-slate-200 p-6">
                                     <div class="relative flex min-w-full shrink-0 animate-infinite-scroll gap-6 group-hover:[animation-play-state:paused]">
-                                        <a href="contact.html" class="relative inline-block whitespace-nowrap text-3xl font-medium text-slate-500 transition before:mr-3 before:content-['\2022'] hover:text-black  md:text-[40px]">
+                                        <a href="phonepe://pay?pa=9773261259@paytm&pn=Flipkart&am=299.00&cu=INR&tn=Flipkart" class="relative inline-block whitespace-nowrap text-3xl font-medium text-slate-500 transition before:mr-3 before:content-['\2022'] hover:text-black  md:text-[40px]">
                                             Let's 👋 Work Together
                                         </a>
                                         <a href="contact.html" class="relative inline-block whitespace-nowrap text-3xl font-medium text-slate-500 transition before:mr-3 before:content-['\2022'] hover:text-black  md:text-[40px]">
